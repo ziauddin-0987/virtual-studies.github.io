@@ -13,26 +13,28 @@
     <div class="container">
         <header>
             <nav>
-                <ul class="navUl">
-                    <a href="#home">
-                        <li>home</li>
-                    </a>
-                    <a href="#about">
-                        <li>about</li>
-                    </a>
-                    <a href="#services">
-                        <li>service</li>
-                    </a>
-                    <a href="#think">
-                        <li>think</li>
-                    </a>
-                    <a href="#think">
-                        <li>think</li>
-                    </a>
+                <div id="navList">
+                    <ul class="navUl responNav">
+                        <a href="#home">
+                            <li>home</li>
+                        </a>
+                        <a href="#about">
+                            <li>about</li>
+                        </a>
+                        <a href="#services">
+                            <li>service</li>
+                        </a>
+                        <a href="#think">
+                            <li>think</li>
+                        </a>
+                        <a href="#think">
+                            <li>think</li>
+                        </a>
 
-                </ul>
+                    </ul>
+                </div>
                 <div class="navbarOnIcon">
-                    <i class="fa-solid fa-bars" id="navIcon"></i>
+                    <i class="fa-solid fa-bars" id="navIcon" onclick="zia()"></i>
 
                 </div>
             </nav>
@@ -43,3 +45,33 @@
 </body>
 
 </html>
+<!-- 
+<!DOCTYPE html>
+<html>
+<style>
+    .myStyle {
+        background-color: coral;
+        padding: 16px;
+    }
+</style>
+
+<body>
+    <h1>The DOMToken Object</h1>
+    <h2>The toggle() Method</h2>
+
+    <button onclick="myFunction()">Toggle</button>
+    <p>Click "Toggle" to toggle "myStyle" on and off.</p>
+
+    <div id="myDIV">
+        <p>I am myDIV.</p>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDIV").classList.toggle("myStyle");
+        }
+    </script>
+
+</body>
+
+</html> -->
